@@ -28,7 +28,7 @@ const ContectSection = () => {
                 </div>
 
                 <div className='contectse-right'>
-                    <div className='image-container'>
+                    <div className='con-image-container'>
                         <img src = {b3} alt = 'im' className='imageStyle'/>
                     </div>
                 </div>

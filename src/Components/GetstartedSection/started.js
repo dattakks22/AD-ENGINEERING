@@ -29,7 +29,7 @@ const Started = () => {
                                 7286813817,
                             </p>
                             <p className="address-details">
-                                6361288576
+                                8179569697.
                             </p>
                         </div>
 

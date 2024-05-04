@@ -62,13 +62,19 @@
     font-weight: 600;
 }
 
+.con-image-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+}
+
 @media screen and (max-width:640px) {
     .contectse-main-container {
-        margin: 1.5rem;
+        margin: 2rem;
     }
-
-   
-
+    
     .contect-sec-text {
         font-size: 1rem;
     }
