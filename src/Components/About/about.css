@@ -1,0 +1,35 @@
+
+
+.about_container{
+    position:relative;
+    overflow-x: clip;
+}
+
+.fon{
+    font-size: 1.5rem;
+    color:  #2949c6;
+    font-weight: 900;
+    margin:2rem;
+}
+
+
+
+
+
+@media (min-width:639px){
+    .fon{
+        font-size: 1rem;
+       
+    }
+}
+
+
+@media (min-width: 768px) {
+    /* Medium devices (tablets) and up */
+    .fon{
+        font-size: 1.3rem;
+       
+    }
+
+
+}

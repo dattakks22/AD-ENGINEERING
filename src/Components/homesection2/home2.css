@@ -1,0 +1,72 @@
+.home2-main-container{
+    margin: 4rem;
+}
+
+.home2-innercontainer {
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    gap:1rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.icon{
+    width: 9rem;
+
+}
+
+.icon-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.icons-container{
+    width:15rem;
+   text-align: center;
+   color: #2949c6;
+}
+
+.icons-container:hover{
+    background: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+    color: #ffff;
+    border-radius: 0.5rem;
+}
+
+
+@media (max-width: 640px) {
+    /* Extra small devices (phones) */
+    .icon{
+        width: 5rem;
+    
+    }
+    
+    .icon-title {
+        font-size: 0.8rem;
+        
+        
+    }
+    
+    .icons-container{
+        width:5rem;
+    }
+    .home2-main-container{
+        margin: 2rem;
+    }
+}
+
+
+
+@media (max-width: 768px){
+    /* Medium devices (tablets) and up */
+
+
+
+
+}
+
+

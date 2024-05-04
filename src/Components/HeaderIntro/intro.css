@@ -1,0 +1,184 @@
+.homeIntroMain {
+    color: white;
+    padding-bottom: 2rem;
+    background-color: #131110;
+    background-image: url(../Assets/bg.png);
+    background-size: 80%;
+
+}
+
+
+.homeIntro-container {
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.image-section {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.image-container {
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+}
+
+.imageStyle {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.title-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title-heading {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+.orangeCircle {
+    height: 4rem;
+    width: 4rem;
+    background: linear-gradient(270deg, #ff7878 0%, #ff3e2d 100%);
+    position: absolute;
+    border-radius: 6rem;
+    right: 15%;
+    top: -10px;
+    z-index: -1;
+}
+
+.desc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.desc-style {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+
+.button {
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2rem;
+    transition: all 300ms ease-in;
+    border: none;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.btn-about {
+    background: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+    margin-top: 2rem;
+}
+
+.btn-services {
+
+    background: linear-gradient(97.05deg, #ff4640 3.76%, #c62929 100%);
+    margin-top: 2rem;
+
+}
+
+
+
+
+
+
+@media (max-width:640px) {
+
+    .homeIntro-container {
+        padding: 1rem;
+        justify-content: center;
+    }
+
+
+    .title-heading {
+        font-size: 1.9rem;
+        line-height: 2rem;
+    }
+
+    .image-container {
+        width: 95%;
+        height: 25rem;
+    }
+}
+
+@media (max-width:768px) {
+    .homeIntro-container {
+        padding: 1rem;
+        justify-content: center;
+    }
+
+    .title-heading {
+        font-size: 1.9rem;
+        line-height: 2rem;
+
+    }
+
+    .buttonContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .button{
+        padding:0.5rem
+    }
+    .desc-container{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:1280px) {
+    
+
+    .contact-section {
+        align-items: center;
+    
+    }
+
+   
+}
+

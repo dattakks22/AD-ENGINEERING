@@ -1,0 +1,179 @@
+.headermainContainer {
+    color: #ffff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 100%;
+    color: #ffffffc7;
+    background-color: black;
+}
+
+.logo {
+    width: 4rem;
+    height: 3.5rem;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companyname {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 0.6rem;
+}
+
+.companyname:hover {
+    color: #2949c6;
+    cursor: pointer;
+}
+
+.navlink {
+    margin-left: 2rem;
+    color: #ffffffc7;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: all 300ms ease-out;
+}
+
+.navlink:hover {
+    cursor: pointer;
+    color: #2949c6;
+    border-bottom: 4px solid #2949c6;
+    padding-bottom: 1rem;
+    transform: scale(1.1);
+}
+
+.btn-contact {
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    background: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+    text-decoration: none;
+    margin-left: 2rem;
+    transition: all 300ms ease-in;
+    border: none;
+}
+
+.btn-contact:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.contactlink {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.mobile-header-menu {
+    color: black;
+    height: 20rem;
+    width: 18rem;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    transition: all 300ms ease-in-out;
+    margin-left: 5rem;
+
+}
+
+.mob-navlink {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:black;
+    font-weight: 700;
+
+}
+
+@media (max-width: 640px) {
+    .header-container {
+        padding: 0.5rem;
+    }
+
+    .companyname {
+        font-size: 1.3rem;
+        margin-top: 0.3rem;
+    }
+
+    .logo {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .navlink {
+        font-size: 2rem;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .header-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        padding: 1rem;
+    }
+
+    .companyname {
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .logo {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .navlink {
+        color: black;
+        font-size: 2rem;
+    }
+
+    .header-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 1280px) {
+    .header-container {
+        padding: 0.5rem;
+    }
+
+    .navlink {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1536px) {
+    .header-container {
+        max-width: 1280px;
+        margin: auto;
+    }
+}

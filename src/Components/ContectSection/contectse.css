@@ -1,0 +1,88 @@
+.contectse-main-container {
+    margin: 3rem;
+}
+
+
+.contectse-container {
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contectse-container>div {
+    flex: 1;
+}
+
+.mg {
+    margin-top: 0.5rem;
+}
+
+.margin-top {
+    margin-top: 3rem;
+}
+
+.width {
+    width: auto;
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+    font-weight: 700;
+}
+
+.contectse-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5
+}
+
+.contectse-right {
+    width: 100%;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    background: #c8e8e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contect-sec-text {
+    color: #c62929;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:640px) {
+    .contectse-main-container {
+        margin: 1.5rem;
+    }
+
+   
+
+    .contect-sec-text {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .contectse-main-container {
+        margin: 2rem;
+    }
+
+    
+    .contect-sec-text {
+        font-size: 1.2rem;
+    }
+}

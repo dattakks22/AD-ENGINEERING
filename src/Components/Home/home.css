@@ -1,0 +1,58 @@
+.home-container{
+    position:relative;
+    overflow-x: clip;
+}
+
+.inner-container{
+    background: #131110;
+    position: relative;
+}
+
+.white-gradient{
+    position: absolute;
+    width:15rem;
+    height:20rem;
+    background-color: #ffffff85;
+    filter:blur(100px);
+    border-radius:100px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    /* Extra small devices (phones) */
+    
+    .white-gradient{
+        position: absolute;
+        width:7rem;
+        height:10rem;
+        
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    /* Medium devices (tablets) and up */
+    .white-gradient{
+        position: absolute;
+        width:7rem;
+        height:10rem;
+        
+    }
+    
+
+}
+
+@media (min-width: 992px) {
+    /* Large devices (desktops) and up */
+    .white-gradient{
+        position: absolute;
+        width:7rem;
+        height:10rem;
+        
+    }
+
+}
+
+

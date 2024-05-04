@@ -1,0 +1,104 @@
+
+.service-main-container{
+    margin: 4rem;
+}
+
+
+
+.servicese-container {
+    width: 100%;
+    padding: 1.5rem;
+   
+}
+
+.fontsize{
+    font-size: 2rem;
+}
+
+.servicese-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.redText {
+    color: #c62929;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.service-heading{
+    color: #2949c6;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.heading {
+    color: #2949c6;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.heading:hover{
+    border-bottom: 0.2rem solid #1f3e72;
+}
+
+.primaryText {
+    color: #1f3e72;
+    font-weight: 600;
+    font-size: 1.5rem;
+ 
+
+}
+
+
+
+.secondaryText {
+    color: #8C8B8B;
+    font-size: 1rem;
+}
+
+.servicese-card {
+    gap: 0.6rem;
+    padding:1rem;
+    border-radius: 10px;
+    width: 29%;
+    transition: all 300ms ease-in;
+    outline: none;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.servicese-card:hover{
+    scale: 1.023;
+    cursor: pointer;
+    background: linear-gradient(180deg,#e1ffe100 0% ,#88a0e1 217.91%);
+    box-shadow:  0px 72px 49px -51px #88a0e136;
+
+}
+
+@media (max-width: 640px) {
+    .service-main-container{
+        margin: 1.5rem;
+    }
+    .service-heading{
+        font-size: 1.8rem;
+    }
+   
+}
+
+@media (max-width: 768px) {
+    .service-main-container{
+        margin: 2rem;
+    }
+   .service-heading{
+        font-size: 1.5rem;
+    }
+}
+
