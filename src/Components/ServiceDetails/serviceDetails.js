@@ -73,9 +73,8 @@ const ServiceDetails = () => {
                     <img src={s6} alt="cardImg" className='card-img' />
 
                     <div className='inner-card-container'>
-                        <span className='primaryText'>Detection and Low Gas Alaram</span> <br />
-                        <span className='secondaryText'>Installing and maintaining gas detection systems
-                            with low gas alarms for safety in gas piping.</span>
+                        <span className='primaryText'>Ms works & Structural works Pipe Racks</span> <br />
+                        <span className='secondaryText'>Installing and maintaining Ms works & Structural works Pipe Racks.</span>
                     </div>
                 </div>
 

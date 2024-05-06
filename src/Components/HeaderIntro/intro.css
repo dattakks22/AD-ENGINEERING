@@ -80,11 +80,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 1rem;
 }
 
 .desc-style {
-    font-size: 0.8rem;
-    margin-top: 1rem;
+    font-size: 1rem;
     color: #ffffff;
 }
 

@@ -19,10 +19,10 @@ const HomeIntro = () => {
 
                     <div className="desc-container">
                         <span className="desc-style">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus ultricies urna
+                        We always try to give our best whether it is product quality or service 
                         </span>
                         <span className="desc-style">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus ultricies urna,
+                        or the customer experience, we always strive hard for excellence.
                         </span>
                     </div>
 
