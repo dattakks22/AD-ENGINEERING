@@ -15,8 +15,9 @@ const ContectUs = () => {
            
             <div className='about-margin'>
                 <p className="fon">CONTACT US</p>
-                <ContectSection />
+                
             </div>
+            <ContectSection />
                 <Section2 />
                 <ProjectSection />
                 <Started />
